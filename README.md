@@ -1,61 +1,54 @@
-# Wanderlust
+# 🌍 Wanderlust
 
-Wanderlust is a fully backend web application designed to help users explore hotels, leave reviews, and manage hotel listings. It includes a secure authentication system and supports all CRUD (Create, Read, Update, Delete) operations for hotel management.
+**Wanderlust** is a backend-driven web application where users can explore hotels, leave reviews, and manage their own hotel listings. It features a secure user authentication system and supports all CRUD (Create, Read, Update, Delete) operations for hotel data.
 
-## Features
+---
 
-- **User Authentication**:
-  - Secure login and signup functionality for users.
-  - Protects sensitive user information using secure authentication techniques.
+## ✨ Features
 
-- **Hotel Listings**:
-  - View a list of hotels with details.
-  - Users can explore available hotels effortlessly.
+- 🔒 **User Authentication**: Secure login and signup functionality to ensure data privacy.
+- 🏨 **Explore Hotels**: View a variety of hotels with user-submitted reviews.
+- 📝 **Review System**: Share experiences by writing and reading hotel reviews.
+- ⚙️ **Hotel Management**:
+  - ➕ Add new hotel listings.
+  - ✏️ Edit details of existing hotels.
+  - 🗑️ Delete hotel listings.
+- 🔄 **CRUD Operations**: Fully implemented for seamless management of hotel data.
 
-- **Reviews**:
-  - Leave reviews for hotels and share feedback with the community.
+---
 
-- **Hotel Management**:
-  - Authenticated users can:
-    - Create new hotel listings.
-    - Edit existing hotel details.
-    - Delete hotel listings.
+## 🛠️ Technologies Used
 
-- **CRUD Operations**:
-  - Full Create, Read, Update, and Delete operations for hotels and reviews.
+- **Backend**:  
+  ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)  
+  ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 
-## Technologies Used
+- **Database**:  
+  ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
-### Backend
-- **Node.js**: Backend runtime environment.
-- **Express.js**: Web framework for building RESTful APIs.
+- **Templating**:  
+  ![EJS](https://img.shields.io/badge/EJS-FF8300?style=for-the-badge)
 
-### Database
-- **MongoDB**: NoSQL database for storing application data.
+- **Authentication**:  
+  ![Passport.js](https://img.shields.io/badge/Passport.js-34E27A?style=for-the-badge&logo=passport)
 
-### Templating
-- **EJS (Embedded JavaScript)**: For dynamic HTML rendering.
+- **Image Storage**:  
+  ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
 
-### Authentication
-- **Passport.js**: Authentication middleware with local strategy.
-- **Passport-Local**: For local user authentication.
+- **Other Libraries**:
+  - `express-session` for session management
+  - `connect-flash` for flash messages
+  - `method-override` for PUT/DELETE HTTP methods
+  - `multer` & `multer-storage-cloudinary` for file uploads
+  - `mongoose` for MongoDB ODM
+  - `joi` for input validation
+  - `dotenv` for environment variables
 
-### Image Storage
-- **Cloudinary**: For storing and managing hotel images.
+---
 
-### Other Dependencies
-- **express-session**: Session management.
-- **connect-flash**: Flash messages for feedback.
-- **method-override**: HTTP method overrides for form submissions.
-- **multer**: File uploading.
-- **multer-storage-cloudinary**: Cloudinary integration for multer.
-- **mongoose**: MongoDB object modeling.
-- **joi**: Schema validation for user input.
-- **dotenv**: Environment variable management.
+## 🛠️ Installation
 
-## Installation
-
-1. Clone the repository:
+1. **Clone the repository**:  
    ```bash
    git clone https://github.com/SaiKrishna680/Wanderlust-.git
    cd Wanderlust-
